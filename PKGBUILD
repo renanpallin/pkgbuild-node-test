@@ -7,8 +7,10 @@ provides=A test node
 source=('git://github.com/renanpallin/pkgbuild-node-test.git')
 md5sums=('SKIP')
 
+_gitname=pkgbuild-node-test
+
 package() {
-	# cd "$pkgname-$pkgver"
+	cd $_gitname
 	# ls -lha
 	install node-test-exec "$pkgdir/ust/bin/node-test-exec"
 }
