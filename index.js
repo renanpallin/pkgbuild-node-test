@@ -1,1 +1,1 @@
-console.log('package funcionando!');
+// console.log('package funcionando!');
