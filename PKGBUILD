@@ -12,5 +12,5 @@ _gitname=pkgbuild-node-test
 package() {
 	cd $_gitname
 	# ls -lha
-	install node-test-exec "$pkgdir/ust/bin/node-test-exec"
+	install node-test-exec "$pkgdir/usr/bin/node-test-exec"
 }
