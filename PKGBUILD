@@ -9,6 +9,6 @@ md5sums=('SKIP')
 
 package() {
 	# cd "$pkgname-$pkgver"
-	ls -lha
-	# install node-test-exec "$pkgdir/ust/bin/node-test-exec"
+	# ls -lha
+	install node-test-exec "$pkgdir/ust/bin/node-test-exec"
 }
